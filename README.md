@@ -13,16 +13,20 @@ If the template hasn't used previously, it would need to be added to the contain
 1. Open your container and select from left bar `Templates`.
 
 ![](images/leftbar_templates.png)
+
 2. Click `Search Gallery` button, which is next to the `New` button.
 
 ![](images/search_gallery.png)
+
 4. Click search button(magnifying glass) and type `LianaAutomation`.
 
 ![](images/search_button.png)
+
 5. LianaAutomation template should be now visible in the list and select it.
 6. Press `Add to workspace` button.
 
 ![](images/add_to_workspace.png)
+
 7. In the pop-up window press `Add`.
 8. Template should now be available in the container and therefore can be used as tag type.
 
@@ -37,16 +41,20 @@ If the template hasn't used previously, it would need to be added to the contain
 3. Click inside the `Tag Configuration` box.
 
 ![](images/tag_configuration.png)
+
 4. Press the blue box containing the text `Discover more tag types in the Community Template Gallery`.
 
 ![](images/choose_tag_type.png)
+
 5. Click search button(magnifying glass) and type `LianaAutomation`.
 
 ![](images/search_button.png)
+
 6. LianaAutomation template should be now visible in the list and select it.
 7. Press `Add to workspace` button.
 
 ![](images/add_to_workspace.png)
+
 8. In the pop-up window press `Add`.
 9. Tag's type should be now `LianaAutomation` and the template is also imported into the container.
 
