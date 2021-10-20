@@ -1,13 +1,3 @@
-## Table of contents
-
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [How to use](#how-to-use)
-
-
-# <a id="introduction"></a>Introduction
-Template is used to collect user data on your websites and send it to LianaAutomation. Gathered user data then can be used to create
-segments. More information about [LianaAutomation](https://www.lianatech.com/solutions/marketing-automation/overview.html).
 # <a id="installation"></a>Installation
 If the template hasn't used previously, it would need to be added to the container first. **This can be done in 2 ways.**
 1. Open your container and select from left bar `Templates`.
