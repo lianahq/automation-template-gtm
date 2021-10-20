@@ -15,5 +15,5 @@
 homepage: "https://www.lianatech.com"
 documentation: "https://github.com/lianahq/automation-template-gtm"
 versions:
-  - sha: 26ac69c5955fb72a9e0f7f35954e7676bf55a46d
+  - sha: 8272087b61de642c02c0efb1a1be4929c6c326c5
     changeNotes: Initial Version
