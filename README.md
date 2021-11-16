@@ -81,7 +81,7 @@ As property fields we are using 3 fields from the form. For every form field we 
 
 Form value can be fetched either by using Data Layer Variables or by using custom javascript.
 
-####Data Layer Variables
+#### Data Layer Variables
 ![](images/formemail_variable.png)
 
 `Data Layer Variable` is selected for `Variable Type` and `gtm.element.1.value` is typed for `Data Layer Variable Name`. `gtm.element` object contains all
@@ -90,18 +90,20 @@ For more information about fetching form values by using Data Layer Variables:
 * [Check "Step 1 – Set up Data Layer Variables"](https://organicdigital.co/blog/how-to-get-track-form-field-submission-values-in-analytics-using-gtm/)
 * [Form Field Tracking](https://measureschool.com/form-field-tracking/)
 
-####Custom Javascript
+#### Custom Javascript
 ![](images/formemail_variable_javascript.png)
 
 `Custom JavaScript` is selected for `Variable Type`. 
 
 For its content:
-<code><br>function() {
-<br> &nbsp; var field = {{Form Element}}.querySelector('#input-email');
-<br> &nbsp; return field ? field.value : undefined;
-<br>}</code>
+```
+function() {
+  var field = {{Form Element}}.querySelector('#input-email');
+  return field ? field.value : undefined;
+}
+```
 
-Second row contains `var field = {{Form Element}}.querySelector('#input-email');`. Here `input-email` is the id of the email field. To find ids, we right-click on the field and select `Inspect`.
+First row contains `var field = {{Form Element}}.querySelector('#input-email');`. Here `input-email` is the id of the email field. To find ids, we right-click on the field and select `Inspect`.
 
 ![](images/inspect_email.png)
 
