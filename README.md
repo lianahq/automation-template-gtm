@@ -1,3 +1,19 @@
+# Table of contents
+
+- [<a id="installation"></a>Installation](#a-idinstallationainstallation)
+- [<a id="how-to-use"></a>How to use](#a-idhow-to-useahow-to-use)
+  - [Template fields](#template-fields)
+  - [Basic setups](#basic-setups)
+    - [Form submission](#form-submission)
+      - [Data Layer Variables](#data-layer-variables)
+      - [Custom Javascript](#custom-javascript)
+      - [Trigger](#trigger)
+    - [Page browsing](#page-browsing)
+  - [Troubleshooting](#troubleshooting)
+    - [Events not appearing in the Automation](#events-not-appearing-in-the-automation)
+    - [More information about using the preview mode:](#more-information-about-using-the-preview-mode)
+    - [More information about getting forms to work with tag manager:](#more-information-about-getting-forms-to-work-with-tag-manager)
+
 # <a id="installation"></a>Installation
 If the Automation template is missing from the container, then it would need to be added first. **This can be done in 2 ways.**
 1. Open your container and select from left bar `Templates`.
@@ -156,6 +172,6 @@ has to do with the implementation of the form. Errors like `Script load failed` 
 ### More information about using the preview mode:
   * https://www.analyticsmania.com/post/google-tag-manager-debug-mode/
   * https://www.searchenginejournal.com/google-tag-manager-preview-mode/385958/
-### More information about getting forms to work with tag manager
+### More information about getting forms to work with tag manager:
   * https://www.fusion75.com/blogposts/tracking-form-submissions-with-google-tag-manager
   * https://www.analyticsmania.com/post/google-tag-manager-form-tracking/
