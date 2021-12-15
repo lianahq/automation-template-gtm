@@ -132,6 +132,8 @@ Similarly, ids for other fields can be found by using the same method.
 In case input doesn't have id, then its name can be used instead, row mentioned above would have to be changed to
 `var field = {{Form Element}}.querySelector('input[name="email"]');`
 
+If `undefined` is returned for variable despite configuring it properly, then replacing `{{Form Element}}` with `document` or  `document.querySelector('#FORM ID HERE')` could be tried here. Form id can be found from inspecting form tag the same way as getting ids for inputs.
+
 More information about using custom javascript can be found from
 * [Field values](https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/#5-capture-field-value)
 
